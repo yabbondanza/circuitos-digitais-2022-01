@@ -1,0 +1,8 @@
+module somador_completo (A, B, S, Cin, Cout);
+	output S, Cout;
+	input A, B, Cin;
+	
+	assign S = A ^ B ^ Cin;
+	assign Cout = A&B | B&Cin | A&Cin;
+	
+endmodule

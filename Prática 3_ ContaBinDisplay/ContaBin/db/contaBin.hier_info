@@ -1,0 +1,40 @@
+|contaBin
+d[0] => Add0.IN2
+d[0] => num_bits~1.DATAA
+d[1] => num_bits~1.OUTPUTSELECT
+d[1] => num_bits~0.OUTPUTSELECT
+d[2] => num_bits~4.OUTPUTSELECT
+d[2] => num_bits~3.OUTPUTSELECT
+d[2] => num_bits~2.OUTPUTSELECT
+d[3] => num_bits~8.OUTPUTSELECT
+d[3] => num_bits~7.OUTPUTSELECT
+d[3] => num_bits~6.OUTPUTSELECT
+d[3] => num_bits~5.OUTPUTSELECT
+d[4] => num_bits~13.OUTPUTSELECT
+d[4] => num_bits~12.OUTPUTSELECT
+d[4] => num_bits~11.OUTPUTSELECT
+d[4] => num_bits~10.OUTPUTSELECT
+d[4] => num_bits~9.OUTPUTSELECT
+d[5] => num_bits~19.OUTPUTSELECT
+d[5] => num_bits~18.OUTPUTSELECT
+d[5] => num_bits~17.OUTPUTSELECT
+d[5] => num_bits~16.OUTPUTSELECT
+d[5] => num_bits~15.OUTPUTSELECT
+d[5] => num_bits~14.OUTPUTSELECT
+d[6] => num_bits~26.OUTPUTSELECT
+d[6] => num_bits~25.OUTPUTSELECT
+d[6] => num_bits~24.OUTPUTSELECT
+d[6] => num_bits~23.OUTPUTSELECT
+d[6] => num_bits~22.OUTPUTSELECT
+d[6] => num_bits~21.OUTPUTSELECT
+d[6] => num_bits~20.OUTPUTSELECT
+d[7] => num_bits~30.OUTPUTSELECT
+d[7] => num_bits~29.OUTPUTSELECT
+d[7] => num_bits~28.OUTPUTSELECT
+d[7] => num_bits~27.OUTPUTSELECT
+q[0] <= num_bits~30.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= num_bits~29.DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= num_bits~28.DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= num_bits~27.DB_MAX_OUTPUT_PORT_TYPE
+
+

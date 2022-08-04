@@ -1,0 +1,14 @@
+|BombaReservatorios
+L1 => X~4.IN1
+L1 => X~7.IN1
+L2 => X~0.IN0
+L2 => X~4.IN0
+L3 => X~0.IN1
+L3 => X~5.IN0
+L3 => X~7.IN0
+L4 => X~1.IN1
+L4 => X~2.IN0
+L4 => X~8.IN0
+X <= X~9.DB_MAX_OUTPUT_PORT_TYPE
+
+

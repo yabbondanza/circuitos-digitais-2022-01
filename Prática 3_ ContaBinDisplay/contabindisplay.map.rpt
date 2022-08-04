@@ -1,0 +1,204 @@
+Analysis & Synthesis report for contabindisplay
+Tue Jul 05 18:05:34 2022
+Quartus II Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Analysis & Synthesis Source Files Read
+  5. Analysis & Synthesis Resource Usage Summary
+  6. Analysis & Synthesis Resource Utilization by Entity
+  7. General Register Statistics
+  8. Analysis & Synthesis Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2009 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++----------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                               ;
++-----------------------------+----------------------------------------------+
+; Analysis & Synthesis Status ; Successful - Tue Jul 05 18:05:34 2022        ;
+; Quartus II Version          ; 9.0 Build 235 06/17/2009 SP 2 SJ Web Edition ;
+; Revision Name               ; contabindisplay                              ;
+; Top-level Entity Name       ; contabindisplay                              ;
+; Family                      ; FLEX10K                                      ;
+; Total logic elements        ; 23                                           ;
+; Total pins                  ; 15                                           ;
+; Total memory bits           ; 0                                            ;
++-----------------------------+----------------------------------------------+
+
+
++--------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                    ;
++--------------------------------------------------------------+-----------------+-----------------+
+; Option                                                       ; Setting         ; Default Value   ;
++--------------------------------------------------------------+-----------------+-----------------+
+; Device                                                       ; EPF10K20RC240-4 ;                 ;
+; Top-level entity name                                        ; contabindisplay ; contabindisplay ;
+; Family name                                                  ; FLEX10K         ; Stratix II      ;
+; Use Generated Physical Constraints File                      ; Off             ;                 ;
+; Use smart compilation                                        ; Off             ; Off             ;
+; Create Debugging Nodes for IP Cores                          ; Off             ; Off             ;
+; Preserve fewer node names                                    ; On              ; On              ;
+; Disable OpenCore Plus hardware evaluation                    ; Off             ; Off             ;
+; Verilog Version                                              ; Verilog_2001    ; Verilog_2001    ;
+; VHDL Version                                                 ; VHDL93          ; VHDL93          ;
+; State Machine Processing                                     ; Auto            ; Auto            ;
+; Safe State Machine                                           ; Off             ; Off             ;
+; Extract Verilog State Machines                               ; On              ; On              ;
+; Extract VHDL State Machines                                  ; On              ; On              ;
+; Ignore Verilog initial constructs                            ; Off             ; Off             ;
+; Iteration limit for constant Verilog loops                   ; 5000            ; 5000            ;
+; Iteration limit for non-constant Verilog loops               ; 250             ; 250             ;
+; Add Pass-Through Logic to Inferred RAMs                      ; On              ; On              ;
+; Parallel Synthesis                                           ; Off             ; Off             ;
+; NOT Gate Push-Back                                           ; On              ; On              ;
+; Power-Up Don't Care                                          ; On              ; On              ;
+; Remove Redundant Logic Cells                                 ; Off             ; Off             ;
+; Remove Duplicate Registers                                   ; On              ; On              ;
+; Ignore CARRY Buffers                                         ; Off             ; Off             ;
+; Ignore CASCADE Buffers                                       ; Off             ; Off             ;
+; Ignore GLOBAL Buffers                                        ; Off             ; Off             ;
+; Ignore ROW GLOBAL Buffers                                    ; Off             ; Off             ;
+; Ignore LCELL Buffers                                         ; Off             ; Off             ;
+; Ignore SOFT Buffers                                          ; On              ; On              ;
+; Limit AHDL Integers to 32 Bits                               ; Off             ; Off             ;
+; Auto Implement in ROM                                        ; Off             ; Off             ;
+; Optimization Technique                                       ; Area            ; Area            ;
+; Carry Chain Length                                           ; 32              ; 32              ;
+; Cascade Chain Length                                         ; 2               ; 2               ;
+; Auto Carry Chains                                            ; On              ; On              ;
+; Auto Open-Drain Pins                                         ; On              ; On              ;
+; Auto ROM Replacement                                         ; On              ; On              ;
+; Auto RAM Replacement                                         ; On              ; On              ;
+; Auto Clock Enable Replacement                                ; On              ; On              ;
+; Strict RAM Replacement                                       ; Off             ; Off             ;
+; Auto Resource Sharing                                        ; Off             ; Off             ;
+; Allow Any RAM Size For Recognition                           ; Off             ; Off             ;
+; Allow Any ROM Size For Recognition                           ; Off             ; Off             ;
+; Use LogicLock Constraints during Resource Balancing          ; On              ; On              ;
+; Ignore translate_off and synthesis_off directives            ; Off             ; Off             ;
+; Show Parameter Settings Tables in Synthesis Report           ; On              ; On              ;
+; HDL message level                                            ; Level2          ; Level2          ;
+; Suppress Register Optimization Related Messages              ; Off             ; Off             ;
+; Number of Removed Registers Reported in Synthesis Report     ; 100             ; 100             ;
+; Number of Inverted Registers Reported in Synthesis Report    ; 100             ; 100             ;
+; Block Design Naming                                          ; Auto            ; Auto            ;
+; Synthesis Effort                                             ; Auto            ; Auto            ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal ; On              ; On              ;
+; Analysis & Synthesis Message Level                           ; Medium          ; Medium          ;
++--------------------------------------------------------------+-----------------+-----------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                            ;
++---------------------------------------+-----------------+------------------------+--------------------------------------------------------------------------------+
+; File Name with User-Entered Path      ; Used in Netlist ; File Type              ; File Name with Absolute Path                                                   ;
++---------------------------------------+-----------------+------------------------+--------------------------------------------------------------------------------+
+; Display7Segmentos/display7segmentos.v ; yes             ; User Verilog HDL File  ; C:/Users/Monitor/Desktop/ContaBinDisplay/Display7Segmentos/display7segmentos.v ;
+; ContaBin/contaBin.v                   ; yes             ; User Verilog HDL File  ; C:/Users/Monitor/Desktop/ContaBinDisplay/ContaBin/contaBin.v                   ;
+; contabindisplay.v                     ; yes             ; User Verilog HDL File  ; C:/Users/Monitor/Desktop/ContaBinDisplay/contabindisplay.v                     ;
++---------------------------------------+-----------------+------------------------+--------------------------------------------------------------------------------+
+
+
++---------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary ;
++--------------------------------+------------+
+; Resource                       ; Usage      ;
++--------------------------------+------------+
+; Total logic elements           ; 23         ;
+; Total combinational functions  ; 23         ;
+;     -- Total 4-input functions ; 10         ;
+;     -- Total 3-input functions ; 11         ;
+;     -- Total 2-input functions ; 2          ;
+;     -- Total 1-input functions ; 0          ;
+;     -- Total 0-input functions ; 0          ;
+; Total registers                ; 0          ;
+; I/O pins                       ; 15         ;
+; Maximum fan-out node           ; flex_sw[7] ;
+; Maximum fan-out                ; 8          ;
+; Total fan-out                  ; 84         ;
+; Average fan-out                ; 2.21       ;
++--------------------------------+------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                             ;
++-------------------------------+-------------+--------------+-------------+------+--------------+-------------------+------------------+-----------------+------------+-------------------------------------------+--------------+
+; Compilation Hierarchy Node    ; Logic Cells ; LC Registers ; Memory Bits ; Pins ; LUT-Only LCs ; Register-Only LCs ; LUT/Register LCs ; Carry Chain LCs ; Packed LCs ; Full Hierarchy Name                       ; Library Name ;
++-------------------------------+-------------+--------------+-------------+------+--------------+-------------------+------------------+-----------------+------------+-------------------------------------------+--------------+
+; |contabindisplay              ; 23 (0)      ; 0            ; 0           ; 15   ; 23 (0)       ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |contabindisplay                          ; work         ;
+;    |contaBin:comb_4|          ; 8 (8)       ; 0            ; 0           ; 0    ; 8 (8)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |contabindisplay|contaBin:comb_4          ; work         ;
+;    |display7segmentos:comb_5| ; 15 (15)     ; 0            ; 0           ; 0    ; 15 (15)      ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |contabindisplay|display7segmentos:comb_5 ; work         ;
++-------------------------------+-------------+--------------+-------------+------+--------------+-------------------+------------------+-----------------+------------+-------------------------------------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 0     ;
+; Number of registers using Synchronous Clear  ; 0     ;
+; Number of registers using Synchronous Load   ; 0     ;
+; Number of registers using Asynchronous Clear ; 0     ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 0     ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II Analysis & Synthesis
+    Info: Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition
+    Info: Processing started: Tue Jul 05 18:05:34 2022
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off contabindisplay -c contabindisplay
+Info: Found 1 design units, including 1 entities, in source file Display7Segmentos/display7segmentos.v
+    Info: Found entity 1: display7segmentos
+Info: Found 1 design units, including 1 entities, in source file ContaBin/contaBin.v
+    Info: Found entity 1: contaBin
+Info: Found 1 design units, including 1 entities, in source file contabindisplay.v
+    Info: Found entity 1: contabindisplay
+Critical Warning (10846): Verilog HDL Instantiation warning at contabindisplay.v(5): instance has no name
+Critical Warning (10846): Verilog HDL Instantiation warning at contabindisplay.v(6): instance has no name
+Info: Elaborating entity "contabindisplay" for the top level hierarchy
+Info: Elaborating entity "contaBin" for hierarchy "contaBin:comb_4"
+Warning (10230): Verilog HDL assignment warning at contaBin.v(21): truncated value with size 32 to match size of target (4)
+Info: Elaborating entity "display7segmentos" for hierarchy "display7segmentos:comb_5"
+Info: Implemented 38 device resources after synthesis - the final resource count might be different
+    Info: Implemented 8 input pins
+    Info: Implemented 7 output pins
+    Info: Implemented 23 logic cells
+Info: Quartus II Analysis & Synthesis was successful. 0 errors, 3 warnings
+    Info: Peak virtual memory: 276 megabytes
+    Info: Processing ended: Tue Jul 05 18:05:34 2022
+    Info: Elapsed time: 00:00:00
+    Info: Total CPU time (on all processors): 00:00:01
+
+

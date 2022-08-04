@@ -1,0 +1,10 @@
+Fitter Status : Successful - Tue Jul 05 18:05:36 2022
+Quartus II Version : 9.0 Build 235 06/17/2009 SP 2 SJ Web Edition
+Revision Name : contabindisplay
+Top-level Entity Name : contabindisplay
+Family : FLEX10K
+Device : EPF10K20RC240-4
+Timing Models : Final
+Total logic elements : 23 / 1,152 ( 2 % )
+Total pins : 15 / 189 ( 8 % )
+Total memory bits : 0 / 12,288 ( 0 % )

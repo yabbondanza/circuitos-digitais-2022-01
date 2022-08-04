@@ -1,0 +1,72 @@
+|contabindisplay
+flex_sw[0] => flex_sw[0]~7.IN1
+flex_sw[1] => flex_sw[1]~6.IN1
+flex_sw[2] => flex_sw[2]~5.IN1
+flex_sw[3] => flex_sw[3]~4.IN1
+flex_sw[4] => flex_sw[4]~3.IN1
+flex_sw[5] => flex_sw[5]~2.IN1
+flex_sw[6] => flex_sw[6]~1.IN1
+flex_sw[7] => flex_sw[7]~0.IN1
+a <= display7segmentos:comb_5.port1
+b <= display7segmentos:comb_5.port2
+c <= display7segmentos:comb_5.port3
+d <= display7segmentos:comb_5.port4
+e <= display7segmentos:comb_5.port5
+f <= display7segmentos:comb_5.port6
+g <= display7segmentos:comb_5.port7
+
+
+|contabindisplay|contaBin:comb_4
+d[0] => Add0.IN2
+d[0] => num_bits~1.DATAA
+d[1] => num_bits~1.OUTPUTSELECT
+d[1] => num_bits~0.OUTPUTSELECT
+d[2] => num_bits~4.OUTPUTSELECT
+d[2] => num_bits~3.OUTPUTSELECT
+d[2] => num_bits~2.OUTPUTSELECT
+d[3] => num_bits~8.OUTPUTSELECT
+d[3] => num_bits~7.OUTPUTSELECT
+d[3] => num_bits~6.OUTPUTSELECT
+d[3] => num_bits~5.OUTPUTSELECT
+d[4] => num_bits~13.OUTPUTSELECT
+d[4] => num_bits~12.OUTPUTSELECT
+d[4] => num_bits~11.OUTPUTSELECT
+d[4] => num_bits~10.OUTPUTSELECT
+d[4] => num_bits~9.OUTPUTSELECT
+d[5] => num_bits~19.OUTPUTSELECT
+d[5] => num_bits~18.OUTPUTSELECT
+d[5] => num_bits~17.OUTPUTSELECT
+d[5] => num_bits~16.OUTPUTSELECT
+d[5] => num_bits~15.OUTPUTSELECT
+d[5] => num_bits~14.OUTPUTSELECT
+d[6] => num_bits~26.OUTPUTSELECT
+d[6] => num_bits~25.OUTPUTSELECT
+d[6] => num_bits~24.OUTPUTSELECT
+d[6] => num_bits~23.OUTPUTSELECT
+d[6] => num_bits~22.OUTPUTSELECT
+d[6] => num_bits~21.OUTPUTSELECT
+d[6] => num_bits~20.OUTPUTSELECT
+d[7] => num_bits~30.OUTPUTSELECT
+d[7] => num_bits~29.OUTPUTSELECT
+d[7] => num_bits~28.OUTPUTSELECT
+d[7] => num_bits~27.OUTPUTSELECT
+q[0] <= num_bits~30.DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= num_bits~29.DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= num_bits~28.DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= num_bits~27.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|contabindisplay|display7segmentos:comb_5
+bin[0] => Decoder0.IN3
+bin[1] => Decoder0.IN2
+bin[2] => Decoder0.IN1
+bin[3] => Decoder0.IN0
+a <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+b <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+c <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+d <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+e <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+f <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+g <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+
+
